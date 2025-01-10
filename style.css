@@ -1,0 +1,64 @@
+body{
+     margin: 0;
+}
+.row-wrap{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+.bio{
+     z-index: 900;
+     position: relative;
+     padding-top: 330px;
+     padding-left: 40px;
+     height: 615px;
+     width :40%;
+     background-color: rgba(128, 128, 128, 0.685);
+}
+i{
+     padding: 8px;
+}
+.experience{
+     position:relative;
+     z-index: 900;
+     padding-top: 350px;
+     padding-left: 20px;
+     padding-bottom: 10px;
+     height: 585px;
+     width :50%;
+     background-color: whitesmoke;
+}
+.profile{
+     position: absolute;
+     top: 25px;
+     width: 94%;
+     height:300px ;
+     z-index: 999;
+     background-color: rgba(16, 58, 56, 0.539);
+}
+.prof-left{
+     width: 40%;
+     align-content: center;
+     text-align: center;
+
+}
+.prof-right{
+     position: relative;
+     left: 6%;
+     width: 50%;
+     align-content: center;
+     text-align: center;
+     color: white;
+}
+img{
+border:8px solid;
+border-color:whitesmoke;
+border-radius: 8px;
+}
+.whi-border{
+     margin: 10px;
+     border:8px solid;
+     border-color:whitesmoke;
+     border-radius: 8px;
+}
